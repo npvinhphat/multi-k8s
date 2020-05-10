@@ -13,7 +13,6 @@ docker push npvinhphat/multi-client:$SHA
 docker push npvinhphat/multi-server:$SHA
 docker push npvinhphat/multi-worker:$SHA
 
-
 # Apply all k8s configs
 kubectl apply -f k8s
 

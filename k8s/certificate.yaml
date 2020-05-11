@@ -7,7 +7,6 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: npvinhphat.com
   dnsNames:
     - multi-k8s.npvinhphat.com
   acme:
